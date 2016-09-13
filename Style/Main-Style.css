@@ -43,25 +43,6 @@
     transform: rotateZ(0deg);
     transition-duration: 2s;
 }
-#Image-Home-Three {
-    transform: rotateZ(-3.7deg);
-    width: 80%;
-    height: 80%;
-}
-#Image-Home-Four {
-    transform: rotateZ(2.8deg);
-    width: 90%;
-    height: 90%;
-    z-index: 0;
-}
-#Image-Home-Three:hover {
-    transform: rotateZ(0deg);
-    transition-duration: 2s;
-}
-#Image-Home-Four:hover {
-    transform: rotateZ(0deg);
-    transition-duration: 2s;
-}
 #Main-Body {
     margin-right: 0.5%;
     margin-left: 0.5%;
@@ -129,7 +110,7 @@
     margin-bottom: 5px;
     padding: 10px;
 }
-#Header-Join {
+#Header-Join{
     color: white;
     text-overflow: clip;
     border: 1px solid rgba(128, 128, 128, 0.77);
@@ -142,12 +123,34 @@
     font-family: 'NSimSun';
     box-shadow: rgba(146, 146, 146, 0.50) 6px 7px 8px;
 }
+#Header-Support {
+    color: white;
+    text-overflow: initial;
+    border: 1px solid rgba(128, 128, 128, 0.77);
+    background-image: url(../Images/Creative%20Spawn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-text-stroke: thin;
+    background-position-y: bottom;
+    text-shadow: 3px 2px 3px rgba(113, 113, 113, 0.79);
+    font-family: 'NSimSun';
+    box-shadow: rgba(146, 146, 146, 0.50) 6px 7px 8px;
+}
 #Join-Image {
     margin: 5px;
     width: 20%;
     height: 20%;
 }
 #Join-Image:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+#SupportPatreon-Image {
+    margin: 5px;
+    width: 20%;
+    height: 20%;
+}
+#SupportPatreon-Image:hover {
     transform: scale(1.05);
     transition-duration: 1s;
 }
@@ -171,4 +174,8 @@
 }
 #Body-Main{
     margin-top: 60px;
+}
+#Main-Home-Body {
+    background-color: rgb(217, 217, 217);
+
 }
