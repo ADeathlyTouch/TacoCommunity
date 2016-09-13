@@ -4,6 +4,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    padding-top: 70px;
     padding: 2px;
 }
 #Main-Icon-Logo {
@@ -182,13 +183,32 @@
 #Join-Welcome-Text-Header {
     text-align: center;
     text-shadow: 2px 1px 1px rgba(113, 113, 113, 0.65);
-    font-family: '';
+    font-weight: 500;
+    -webkit-text-stroke: thin;
     color: #738bd7;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom: 1px solid #afabff;
     padding: 15px;
 }
-#Join-Image-Text {
+#Join-Image-Text, #Patreon-Image-Text {
     text-align: center;
+}
+#Join-Welcome-Body-Text-Header {
+    text-align: center;
+    font-weight: 200;
+    -webkit-text-stroke: medium;
+    color: #738bd7;
+    text-align: center;
+}
+#Patreon-Welcom-Header {
+    color: #ff6d00;
+    text-align: center;
+    border-bottom: 1px solid #afabff;
+    text-shadow: 2px 1px 1px rgba(113, 113, 113, 0.65);
+    font-weight: 500;
+    -webkit-text-stroke: thin;
+}
+#Patreon-Welcom-Header-Small {
+    color: black;
 }
