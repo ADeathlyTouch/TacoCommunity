@@ -114,11 +114,11 @@
     color: white;
     text-overflow: clip;
     border: 1px solid rgba(128, 128, 128, 0.77);
-    background-image: url(../Images/WAC3.jpg);
+    background-image: url(../Images/Creative%20Spawn.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-text-stroke: thin;
-    background-position-y: center;
+    background-position-y: bottom;
     text-shadow: 3px 2px 3px rgba(113, 113, 113, 0.79);
     font-family: 'NSimSun';
     box-shadow: rgba(146, 146, 146, 0.50) 6px 7px 8px;
@@ -127,11 +127,11 @@
     color: white;
     text-overflow: initial;
     border: 1px solid rgba(128, 128, 128, 0.77);
-    background-image: url(../Images/Creative%20Spawn.png);
+    background-image: url(../Images/WAC3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-text-stroke: thin;
-    background-position-y: bottom;
+    background-position-y: center;
     text-shadow: 3px 2px 3px rgba(113, 113, 113, 0.79);
     font-family: 'NSimSun';
     box-shadow: rgba(146, 146, 146, 0.50) 6px 7px 8px;
