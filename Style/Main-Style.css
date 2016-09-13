@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url(../Images/WAC1.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -93,12 +93,12 @@
 }
 
 #Footer{
-    color: white;
+    color: dimgray;
     text-shadow: 2px 1px 3px rgba(113, 113, 113, 0.60);
     font-family: 'Microsoft NeoGothic';
 }
 #Footer small{
-    color: rgba(230, 230, 230, 0.96);
+    color: rgba(104, 104, 104, 0.89);
     text-shadow: 2px 1px 3px rgba(113, 113, 113, 0.60);
     font-family: 'Microsoft NeoGothic';
 }
@@ -178,4 +178,17 @@
 #Main-Home-Body {
     background-color: rgb(217, 217, 217);
 
+}
+#Join-Welcome-Text-Header {
+    text-align: center;
+    text-shadow: 2px 1px 1px rgba(113, 113, 113, 0.65);
+    font-family: '';
+    color: #738bd7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #afabff;
+    padding: 15px;
+}
+#Join-Image-Text {
+    text-align: center;
 }
